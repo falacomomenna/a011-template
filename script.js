@@ -34,6 +34,18 @@ console.log(estudanteCopia.notasDoSemestre)
 estudanteCopia['modulo'] = 'Introdução a WEB'
 console.log(estudanteCopia.modulo)
 
+//criando um array com os dois objetos
 const estudantesLabenu = []
 estudantesLabenu.push(estudante, estudanteCopia)
 console.log(estudantesLabenu)
+
+const carrinho = {
+  nome: 'Daniel Menna',
+  forma: 'Cartão de Crédito',
+  endereco: 'Rua X, 1234',
+  compras: [
+    { Nome: 'Banana', Preço: 'R$ 2,00', Quantidade: '10' },
+    { Nome: 'Maçã', Preço: 'R$ 1,50', Quantidade: '5' },
+    { Nome: 'Abacaxi', Preço: 'R$ 1,00', Quantidade: '3' }
+  ]
+}
