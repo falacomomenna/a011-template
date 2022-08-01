@@ -39,6 +39,7 @@ const estudantesLabenu = []
 estudantesLabenu.push(estudante, estudanteCopia)
 console.log(estudantesLabenu)
 
+//Exercício de Fixação
 const carrinho = {
   nome: 'Daniel Menna',
   forma: 'Cartão de Crédito',
@@ -49,3 +50,10 @@ const carrinho = {
     { Nome: 'Abacaxi', Preço: 'R$ 1,00', Quantidade: '3' }
   ]
 }
+
+console.log('Quantidade de produtos: ', carrinho.compras.length)
+
+const carrinhoPresente = { ...carrinho }
+carrinhoPresente.nome = 'João Carlos'
+carrinhoPresente.forma = 'Cartão Presente'
+console.log(carrinhoPresente)
